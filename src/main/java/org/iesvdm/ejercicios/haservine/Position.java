@@ -36,7 +36,7 @@ public class Position {
         return "Position [latitude=" + latitude + ", longitude=" + longitude + "]";
     }
 
-    //Extension
+    //Extension full spanglish ya
     public static class Extension {
         public static final BigDecimal RADIO_TIERRA_KM = new BigDecimal("6378.0");
 
