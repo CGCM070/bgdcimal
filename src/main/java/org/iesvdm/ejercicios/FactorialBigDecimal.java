@@ -1,4 +1,4 @@
-package org.iesvdm.bigd.ejercicios;
+package org.iesvdm.ejercicios;
 
 import java.math.BigInteger;
 
