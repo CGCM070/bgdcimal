@@ -17,21 +17,17 @@ public class Position {
     public BigDecimal getLatitude() {
         return latitude;
     }
-
     public Position setLatitude(float latitude) {
         this.latitude = new BigDecimal(Float.toString(latitude));
         return this;
     }
-
     public BigDecimal getLongitude() {
         return longitude;
     }
-
     public Position setLongitude(float longitude) {
         this.longitude = new BigDecimal(Float.toString(longitude));
         return this;
     }
-
     public String toString() {
         return "Position [latitude=" + latitude + ", longitude=" + longitude + "]";
     }
