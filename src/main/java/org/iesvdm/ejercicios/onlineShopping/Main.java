@@ -1,4 +1,4 @@
-package org.iesvdm.ejercicios.n5;
+package org.iesvdm.ejercicios.onlineShopping;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.iesvdm.Test;
 
-import org.iesvdm.ejercicios.n5.Payment;
+import org.iesvdm.ejercicios.onlineShopping.Payment;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

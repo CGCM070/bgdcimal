@@ -1,4 +1,4 @@
-package org.iesvdm.ejercicios.n5;
+package org.iesvdm.ejercicios.onlineShopping;
 
 import java.util.List;
 
