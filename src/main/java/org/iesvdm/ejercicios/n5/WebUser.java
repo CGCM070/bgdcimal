@@ -4,6 +4,7 @@ public class WebUser {
     private String login_id;
     private String password;
     private UserState state;
+    private Customer customer;
 
     public WebUser(String id, String password) {
         this.login_id = id;
