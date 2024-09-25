@@ -38,7 +38,7 @@ public class Position {
 
         public static BigDecimal distanciaEnKm(Position posOrigen, Position posDestino) {
 
-            MathContext mc = new MathContext(10, RoundingMode.HALF_UP);
+            MathContext mc = new MathContext(34, RoundingMode.HALF_UP);
 
             BigDecimal lat1 = enRadianes(posOrigen.getLatitude().floatValue());
             BigDecimal lon1 = enRadianes(posOrigen.getLongitude().floatValue());
