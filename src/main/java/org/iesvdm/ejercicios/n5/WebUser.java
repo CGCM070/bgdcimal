@@ -42,6 +42,13 @@ public class WebUser {
         this.state = state;
         return this;
     }
-
-
+    @Override
+    public String toString() {
+        return "WebUser{" +
+                "customer=" + customer +
+                ", login_id='" + login_id + '\'' +
+                ", password='" + password + '\'' +
+                ", state=" + state +
+                '}';
+    }
 }

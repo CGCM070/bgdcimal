@@ -5,7 +5,6 @@ public class Address {
     private String city;
     private String state;
 
-
     public Address(String street, String city, String state) {
         this.street = street;
         this.city = city;
@@ -20,22 +19,26 @@ public class Address {
         this.city = city;
         return this;
     }
-
     public String getState() {
         return state;
     }
-
     public Address setState(String state) {
         this.state = state;
         return this;
     }
-
     public String getStreet() {
         return street;
     }
-
     public Address setStreet(String street) {
         this.street = street;
         return this;
+    }
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", state='" + state + '\'' +
+                '}';
     }
 }
