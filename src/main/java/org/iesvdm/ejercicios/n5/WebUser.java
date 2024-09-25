@@ -42,6 +42,7 @@ public class WebUser {
         this.state = state;
         return this;
     }
+
     @Override
     public String toString() {
         return "WebUser{" +

@@ -1,6 +1,8 @@
 package org.iesvdm.ejercicios.n5;
 
 import java.math.BigDecimal;
+import java.util.Iterator;
+import java.util.TreeMap;
 
 public class Order {
     private String number_Id;
@@ -9,6 +11,7 @@ public class Order {
     private Address ship_to;
     private OrderStatus status;
     private BigDecimal total;
+    private TreeMap<String, LineItem> items = new TreeMap<>();
 
     public Order(String number_Id, String orderDate,Address ship_to, OrderStatus status, BigDecimal total) {
         this.number_Id = number_Id;
@@ -61,6 +64,22 @@ public class Order {
         this.total = total;
         return this;
     }
+    public TreeMap<String, LineItem> getItems() {
+        return items;
+    }
+    public Order setItems(TreeMap<String, LineItem> items) {
+        this.items = items;
+        return this;
+    }
+    public Order addItem(LineItem item) {
+        Iterator<Product> it = item.getProducts().iterator();
+        while (it.hasNext()) {
+            Product product = it.next();
+            this.items.put(product.getId(), item);
+        }
+        return this;
+    }
+
 
     @Override
     public String toString() {
