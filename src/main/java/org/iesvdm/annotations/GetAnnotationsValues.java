@@ -18,7 +18,8 @@ public class GetAnnotationsValues {
                     .setName(studentAnnotation.name())
                     .setLastName(studentAnnotation.lastName())
                     .setDateOfBirth(studentAnnotation.dateOfBirth())
-                    .setCurrentCourse(studentAnnotation.currentCourse()));
+                    .setCurrentCourse(studentAnnotation.currentCourse())
+                    .setNameOfCourse(studentAnnotation.nameOfCourse()));
         }
         return students;
     }

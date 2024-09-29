@@ -12,4 +12,5 @@ public @interface StudentAnnotation {
     String lastName();
     String dateOfBirth();
     int currentCourse();
+    String nameOfCourse();
 }

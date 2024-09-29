@@ -7,37 +7,22 @@ public class StudentClass {
     private String lastName;
     private String dateOfBirth;
     private int currentCourse;
+    private  String nameOfCourse;
 
     public StudentClass() {
-    }
-
-    public StudentClass(String name, String lastName, String dateOfBirth, int currentCourse) {
-        this.name = name;
-        this.lastName = lastName;
-        this.dateOfBirth = dateOfBirth;
-        this.currentCourse = currentCourse;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getDateOfBirth() {
-        return dateOfBirth;
     }
 
     public int getCurrentCourse() {
         return currentCourse;
     }
 
-
     public StudentClass setCurrentCourse(int currentCourse) {
         this.currentCourse = currentCourse;
         return this;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
     public StudentClass setDateOfBirth(String dateOfBirth) {
@@ -45,9 +30,17 @@ public class StudentClass {
         return this;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
     public StudentClass setLastName(String lastName) {
         this.lastName = lastName;
         return this;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public StudentClass setName(String name) {
@@ -55,14 +48,13 @@ public class StudentClass {
         return this;
     }
 
-    @Override
-    public String toString() {
-        return "ClassStudent{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", dateOfBirth='" + dateOfBirth + '\'' +
-                ", currentCourse=" + currentCourse +
-                '}';
+    public String getNameOfCourse() {
+        return nameOfCourse;
+    }
+
+    public StudentClass setNameOfCourse(String nameOfCourse) {
+        this.nameOfCourse = nameOfCourse;
+        return this;
     }
 
     @Override
@@ -70,11 +62,22 @@ public class StudentClass {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         StudentClass that = (StudentClass) o;
-        return currentCourse == that.currentCourse && Objects.equals(name, that.name) && Objects.equals(lastName, that.lastName) && Objects.equals(dateOfBirth, that.dateOfBirth);
+        return Objects.equals(name, that.name) && Objects.equals(dateOfBirth, that.dateOfBirth);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, lastName, dateOfBirth, currentCourse);
+        return Objects.hash(name, dateOfBirth);
+    }
+
+    @Override
+    public String toString() {
+        return "StudentClass{" +
+                "currentCourse=" + currentCourse +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", nameOfCourse='" + nameOfCourse + '\'' +
+                '}';
     }
 }
