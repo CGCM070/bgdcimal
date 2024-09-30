@@ -5,7 +5,6 @@ import org.iesvdm.annotations.StudentAnnotation;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @StudentAnnotation(name = "Gabriel", lastName = "Garcia", dateOfBirth = "01/01/2000", currentCourse = 1, nameOfCourse = "DAW")
 @StudentAnnotation(name = "María", lastName = "Castel", dateOfBirth = "01/01/2000", currentCourse = 2, nameOfCourse = "DAM")
 @StudentAnnotation(name = "Juan", lastName = " Martínez", dateOfBirth = "01/01/2000", currentCourse = 3, nameOfCourse = "DAW")
