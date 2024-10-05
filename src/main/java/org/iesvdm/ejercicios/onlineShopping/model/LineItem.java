@@ -1,4 +1,4 @@
-package org.iesvdm.ejercicios.onlineShopping;
+package org.iesvdm.ejercicios.onlineShopping.model;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

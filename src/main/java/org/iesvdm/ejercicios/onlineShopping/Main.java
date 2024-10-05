@@ -1,5 +1,8 @@
 package org.iesvdm.ejercicios.onlineShopping;
 
+import org.iesvdm.ejercicios.onlineShopping.enums.OrderStatus;
+import org.iesvdm.ejercicios.onlineShopping.model.*;
+
 import java.math.BigDecimal;
 import java.util.List;
 

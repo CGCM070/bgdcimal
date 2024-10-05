@@ -1,4 +1,6 @@
-package org.iesvdm.ejercicios.onlineShopping;
+package org.iesvdm.ejercicios.onlineShopping.model;
+
+import org.iesvdm.ejercicios.onlineShopping.enums.UserState;
 
 public class WebUser {
     private String login_id;

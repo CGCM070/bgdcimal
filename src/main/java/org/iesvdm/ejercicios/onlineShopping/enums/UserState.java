@@ -1,4 +1,4 @@
-package org.iesvdm.ejercicios.onlineShopping;
+package org.iesvdm.ejercicios.onlineShopping.enums;
 
 public enum UserState {
     NEW,

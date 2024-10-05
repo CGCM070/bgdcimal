@@ -1,8 +1,8 @@
 package org.iesvdm.Test;
 
-import org.iesvdm.ejercicios.onlineShopping.LineItem;
-import org.iesvdm.ejercicios.onlineShopping.Product;
-import org.iesvdm.ejercicios.onlineShopping.Supplier;
+import org.iesvdm.ejercicios.onlineShopping.model.LineItem;
+import org.iesvdm.ejercicios.onlineShopping.model.Product;
+import org.iesvdm.ejercicios.onlineShopping.model.Supplier;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

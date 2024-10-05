@@ -1,7 +1,7 @@
 package org.iesvdm.Test;
 
-import org.iesvdm.ejercicios.onlineShopping.UserState;
-import org.iesvdm.ejercicios.onlineShopping.WebUser;
+import org.iesvdm.ejercicios.onlineShopping.enums.UserState;
+import org.iesvdm.ejercicios.onlineShopping.model.WebUser;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
